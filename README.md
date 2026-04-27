@@ -1,30 +1,53 @@
-# ArtificialIntelligenceGUI
+# 🤖 Artificial Intelligence GUI
 
-I created this project as a creative interface mockup that explores what an AI assistant GUI might look like. While the functionality is rule-based rather than truly intelligent, it let me focus on delivering a futuristic and clean user interface, combining theme consistency with conditional logic. This helped me practice scene switching, input handling, and custom styling within JavaFX.
+This is a JavaFX desktop application that simulates an AI assistant interface.
 
----
+The goal of this project was to build an interactive GUI that processes user input, responds to queries, and demonstrates event-driven application design.
 
-### ✨ Features
+## 💡 What It Does
 
-- 🔮 **Predict Button**  
-  Simulates AI chatbot behavior with hardcoded responses to common user prompts. Also handles basic math expression evaluation using JavaScript engine fallback.
+- Accepts user input through a chat-style interface  
+- Processes input and returns responses based on predefined logic  
+- Supports offline search using indexed data  
+- Displays responses dynamically in a GUI  
 
-- 🧠 **Analyze Button**  
-  Performs simple offline natural language analysis when AI Mode is disabled:
-  - Word and character count
-  - Sentiment analysis (positive/neutral/negative)
-  - Question and math expression detection  
-  If AI Mode is enabled but no API key is available, it shows a user-friendly fallback message instead of crashing.
+## 🛠️ Tech Used
 
-- 🤖 **AI Mode (Optional)**  
-  If enabled and configured with an OpenAI API key via `.env`, queries are sent to OpenAI's GPT-3.5-Turbo model. If the key is missing or the quota is exceeded, a clear message is displayed in the response area.
+- Java  
+- JavaFX (GUI)  
+- Lucene (offline search/indexing)  
+- Event-driven programming  
 
----
+## ⚙️ Features
 
-### 🛠️ Tech Stack
+- Chat-style user interface  
+- Input handling and response generation  
+- Offline data search using indexed content  
+- Modular structure for future expansion  
 
-- Java 21
-- JavaFX 21
-- Maven
-- exp4j (optional math parsing)
-- Dotenv (optional `.env` integration for API key)
+## 🧠 What I Focused On
+
+- Event-driven GUI design  
+- Structuring application logic into modular components  
+- Handling user input and response flow  
+- Designing a system that can be expanded later  
+
+## 🚧 Notes
+
+This project was built as part of my Computer Science coursework.
+
+It focuses more on application structure, user interaction, and search logic rather than advanced AI or machine learning.
+
+## ▶️ How to Run
+
+1. Clone the repository  
+2. Open in IntelliJ IDEA  
+3. Run the main application class  
+4. Enter input into the interface and view responses  
+
+## 📌 Future Improvements
+
+- Improve response handling and accuracy  
+- Add API-based or online mode  
+- Enhance UI/UX design  
+- Expand dataset and search capabilities  
